@@ -255,8 +255,8 @@ def main():
         openai_api_key = st.text_input('Your OpenAI API KEY', type="password")
 
     st.title("AutoGPT")
-    objective = st.text_input(" ", "What can I do to elevate your day today?")
-    first_task = st.text_input("Reference /Research URL (if any)", "Default: World Wide Web")
+    objective = st.text_input("Enter your query:", "")
+    first_task = st.text_input("Reference /Research URL (if any)", "Default: Google")
     max_iterations = st.number_input("High Limit Rotation", value=3, min_value=1, step=1)
     button = st.button("Generate")
 
