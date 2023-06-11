@@ -1,0 +1,8 @@
+langchain-serve 
+transformers 
+huggingface-hub 
+sentence_transformers 
+faiss-cpu 
+openai
+importlib-metadata==6.0.0
+urllib3==1.26.5
